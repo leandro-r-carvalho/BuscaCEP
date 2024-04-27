@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Busca CEP</title>
+    <link rel="stylesheet" href="Estilos/style-cep.css">
+    <script src="scripts/script-cep.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="entrada">
+            <h1>Buscar CEP</h1>
+            <div class="entrada_dados">
+                <p>CEP: </p> <input type="text" name="txtCEP" id="txtCEP">  
+            </div>
+            <span id="mensagem"></span>
+            <div class="entrada_btn">
+                <input type="button" class="btn" id = "btn-Buscar" value="Buscar">
+            </div>
+        </div>
+        <div class="saida">
+            <div class="saida_dados">
+                <p>Rua: </p><input type="text" name="txtRua" id="txtRua">
+                <p>Bairro: </p><input type="text" name="txtBairro" id="txtBairro">
+                <p>Cidade: </p><input type="tel" name="txtCidade" id="txtCidade">
+                <p>Estado: </p><input type="text" name="txtEstado" id="txtEstado">
+            </div>
+            <div class="saida_btn">
+                <input type="button" class="btn" id = "btn-Limpar" value="Limpar">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
